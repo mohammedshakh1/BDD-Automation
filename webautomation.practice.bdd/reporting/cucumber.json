@@ -1,0 +1,86 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4627542576,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "ContactUs text",
+        "description": "",
+        "id": "home.feature;contactus-text",
+        "after": [
+          {
+            "result": {
+              "duration": 78691574,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92288797,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on home page",
+            "match": {
+              "location": "HomePageSteps.user_is_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57352343,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get text from CotactUs",
+            "match": {
+              "location": "HomePageSteps.get_text_from_bat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20571472,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "bat should have text",
+            "match": {
+              "location": "HomePageSteps.bat_should_have_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "home.feature",
+    "description": "",
+    "id": "home.feature",
+    "keyword": "Feature",
+    "uri": "home.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]

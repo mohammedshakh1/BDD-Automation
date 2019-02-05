@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.876447">
+<testcase classname="home.feature" name="ContactUs text" time="4.876447">
+<system-out><![CDATA[Given user is already on home page..........................................passed
+When get text from CotactUs.................................................passed
+Then bat should have text...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
